@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "src",
+    ".env"
+  ],
+  "verbose": false,
+  "ext": "js,json",
+  "ignore": [
+    "src/**/*.spec.js"
+  ],
+  "exec": "npm run lint && npm run start"
+}

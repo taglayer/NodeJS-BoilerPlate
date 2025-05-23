@@ -3,7 +3,7 @@ const express = require('express');
 
 const routes = require('./router');
 
-const PORT = process.env.PORT || 7070;
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 const server = http.createServer(app);
